@@ -1,9 +1,3 @@
-
-
-
-
-
-
 let addCustomer = document.querySelector("#searchBar");
 let modalBg = document.querySelector(".modal-bg");
 let modalClose = document.querySelector(".modal-close");
@@ -27,8 +21,15 @@ function talk() {
       "Hi Scientific Person😊, Welcome back! Please select an option from the below menu.",
     "How are you": "Good 😊",
     "how are you": "Good 😊",
-    "how old are you": "My age is Infinity!!! ",
-    juice: " Please Place your order in cart.",
+    juice: "Which flavour you want to buy?",
+    Mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
+    mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
+    orange:
+      "We have a Valencia orange juice with natural extracts, Shop Now !!! ",
+    Orange:
+      "We have a Valencia orange juice with natural extracts, Shop Now !!! ",
+    apple: "We have a Rich Apple juice with natural extracts, Shop Now !!! ",
+    Apple: "We have a Rich Apple juice with natural extracts, Shop Now !!! ",
     ok: "Thank You So Much 😊",
     Bye: "Okay! Will meet soon. TC..",
   };
@@ -119,27 +120,25 @@ function Orderingdata() {
   ordersContent.style.display = "block";
 }
 
-
 // let display = document.querySelector('.dashCard1')
-let mailDisplay = document.querySelector('#emailing')
-let userdisplay = document.querySelector('#usernaming')
-let usedisplay= document.querySelector('#useres')
-let mailed = document.querySelector('#mailed')
+let mailDisplay = document.querySelector("#emailing");
+let userdisplay = document.querySelector("#usernaming");
+let usedisplay = document.querySelector("#useres");
+let mailed = document.querySelector("#mailed");
 
-let loginData = JSON.parse(localStorage.getItem('loginData')) || []
-window.addEventListener('load', function() {
-  const [{email,username}] = loginData
-  
+let loginData = JSON.parse(localStorage.getItem("loginData")) || [];
+window.addEventListener("load", function () {
+  const [{ email, username }] = loginData;
+
   // if (username, email){
-    //   location = "myAccount.html"
-    // }
-    mailed.textContent = email
-    mailDisplay.textContent = email
-    userdisplay.textContent = username
-    usedisplay.textContent = username
-    
-  })
-  console.log("object")
+  //   location = "myAccount.html"
+  // }
+  mailed.textContent = email;
+  mailDisplay.textContent = email;
+  userdisplay.textContent = username;
+  usedisplay.textContent = username;
+});
+console.log("object");
 
 // function displayData(loginData){
 //   let holder = document.querySelector('.dashCard1')
@@ -150,10 +149,20 @@ window.addEventListener('load', function() {
 //   holder.innerHTML = html
 // }
 
-
 let emptycart = document.getElementById("emptyCart");
 emptycart.addEventListener("click", logoutCart);
 
 function logoutCart() {
   location = "emptyCart.html";
 }
+
+let emptycart2 = document.getElementById("emptyCart2");
+emptycart2.addEventListener("click", logoutCart2);
+
+function logoutCart2() {
+  location = "emptyCart.html";
+}
+let logocl = document.querySelector("#logocl");
+logocl.addEventListener("click", () => {
+  location = "landingPage.html";
+});

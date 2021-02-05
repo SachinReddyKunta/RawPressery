@@ -36,17 +36,22 @@
                     <div class="dropdown">
                         <button class="dropbtn">SHOP</button>
                         <div class="dropdown-content">
-                            <div class="content_space">
-                                <h3 style="font-weight: 100;">PACKAGES </h3>
-                                <h3 style="font-weight: 100;">JUICES</h3>
+                            <div class="shop_cont">
+                                <div class="content_space">
+                                    <h3 style="font-weight: 100;">PACKAGES </h3>
+                                    <a style="color: white;" href="#">Subscriptions</a>
+                                    <a style="color: white;" href="#">Value Packs</a>
+                                    <a style="color: white;" href="#">Bulk Order</a>
+
+                                </div>
+                                <div class="content_space">
+                                    <h3 style="font-weight: 100;">JUICES</h3>
+                                    <a style="color: white;" href="#">Juices</a>
+                                    <a style="color: white;" href="#">Almond Milk</a>
+                                    <a style="color: white;" href="#">Protien Milkshake</a>
+                                    <a style="color: white;" href="#">View All</a>
+                                </div>
                             </div>
-                            <a style="color: white;" href="#">Subscriptions</a>
-                            <a style="color: white;" href="#">Value Packs</a>
-                            <a style="color: white;" href="#">Bulk Order</a>
-                            <a style="color: white;" href="#">Juices</a>
-                            <a style="color: white;" href="#">Almond Milk</a>
-                            <a style="color: white;" href="#">Protien Milkshake</a>
-                            <a style="color: white;" href="#">View All</a>
                         </div>
 
                     </div>
@@ -62,7 +67,7 @@
                     </div>
                 </div>
                 <div class="header_middle_cont2">
-                    <img onclick="" src="https://www.rawpressery.com/assets/imgs/white-logo.png" width="70" alt="logo">
+                    <img id="logocl" src="https://www.rawpressery.com/assets/imgs/white-logo.png" width="70" alt="logo">
                 </div>
                 <div class="header_right_cont2">
                     <div>
@@ -74,13 +79,13 @@
                                 width="30" alt="user"><span class="dot"></span></button>
                         <div class="droppindown-content">
                             <a style="color: white;" href="#">Welcome</a>
-                            <a style="color: white;" id="emptyCart">My Account</a>
-                            <a style="color: white;" href="#">My Cart</a>
+                            <a style="color: white;">My Account</a>
+                            <a style="color: white;" id="emptyCart">My Cart</a>
                             <a style="color: white;" href="mailLogin.html" id="logout">Log Out</a>
                         </div>
                     </div>
                     <div>
-                        <img class="cart" id="emptyCart" src="https://www.rawpressery.com/assets/imgs/empty-cart.png"
+                        <img class="cart" id="emptyCart2" src="https://www.rawpressery.com/assets/imgs/empty-cart.png"
                             width="35" alt="cart"><span class="dot2">0</span>
                     </div>
                     <div class="modal-bg">
@@ -135,10 +140,13 @@
                     <div class="persn_add">
                         <h3 style="font-size: 24px; font-weight: 100;">EDIT PERSONAL INFO</h3>
                         <p>Feel free to edit any of your details below</p>
-                        <input class="FullName" style="height:35px;margin-right: 20px; width:280px ;" type="text" name="Full name" id="naming" value="Full name">
-                        <input class="mailId" style="height: 35px;margin-left: 20px; width:280px ;" type="text" name="emailing" id="mail" value="email id"></br>
+                        <input class="FullName" style="height:35px;margin-right: 20px; width:280px ;" type="text"
+                            name="Full name" id="naming" value="Full name">
+                        <input class="mailId" style="height: 35px;margin-left: 20px; width:280px ;" type="text"
+                            name="emailing" id="mail" value="email id"></br>
                         <button class="svBtn">SAVE</button></br>
-                        <button class="pwdBtn">CHANGE PASSWORD</button></div>
+                        <button class="pwdBtn">CHANGE PASSWORD</button>
+                    </div>
                 </div>
             </div>
             <div class="address">
@@ -151,7 +159,8 @@
                 <button class="orderBtn">YOUR ADDRESS</button>
                 <div class="orders-content">
                     <div>
-                        <h3 style="font-weight: 100;color: rgb(0, 0, 0);">YOUR PAST ORDER</br> You have placed no orders.</h3>
+                        <h3 style="font-weight: 100;color: rgb(0, 0, 0);">YOUR PAST ORDER</br> You have placed no
+                            orders.</h3>
                     </div>
                 </div>
             </div>

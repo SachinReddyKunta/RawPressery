@@ -21,8 +21,15 @@ function talk() {
       "Hi Scientific Person😊, Welcome back! Please select an option from the below menu.",
     "How are you": "Good 😊",
     "how are you": "Good 😊",
-    "how old are you": "My age is Infinity!!! ",
-    juice: " Please Place your order in cart.",
+    juice: "Which flavour you want to buy?",
+    Mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
+    mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
+    orange:
+      "We have a Valencia orange juice with natural extracts, Shop Now !!! ",
+    Orange:
+      "We have a Valencia orange juice with natural extracts, Shop Now !!! ",
+    apple: "We have a Rich Apple juice with natural extracts, Shop Now !!! ",
+    Apple: "We have a Rich Apple juice with natural extracts, Shop Now !!! ",
     ok: "Thank You So Much 😊",
     Bye: "Okay! Will meet soon. TC..",
   };
@@ -92,9 +99,9 @@ window.addEventListener("load", function () {
 });
 
 function handleSubmit() {
-  event.preventDefault(); 
+  event.preventDefault();
 
-  let form = new FormData(event.target); 
+  let form = new FormData(event.target);
   let email = form.get("email");
   let username = form.get("username");
   let password = form.get("password");
@@ -104,26 +111,25 @@ function handleSubmit() {
     password,
   };
   if (authCheck(userDetails)) {
-    const { email,username, type } = authCheck(userDetails); 
+    const { email, username, type } = authCheck(userDetails);
     const time = new Date().toLocaleTimeString();
 
     const payload = {
-        email,
+      email,
       username,
       type,
       time,
     };
-    loginData = [...loginData, payload]; 
-    saveToLocalStorage("loginData", loginData); 
+    loginData = [...loginData, payload];
+    saveToLocalStorage("loginData", loginData);
     redirect(payload);
   } else {
-    myAlert()
+    myAlert();
   }
 }
 function authCheck(input) {
   return data.find(
-    (user) =>
-      user.email === input.email && user.password === input.password
+    (user) => user.email === input.email && user.password === input.password
   );
 }
 function saveToLocalStorage(name, value) {
@@ -141,13 +147,23 @@ function redirect(currentUser) {
 }
 
 function myAlert() {
-    alert("Invalid Credentials!");
-  }
+  alert("Invalid Credentials!");
+}
 
-  
 let emptycart = document.getElementById("emptyCart");
 emptycart.addEventListener("click", logoutCart);
 
 function logoutCart() {
   location = "emptyCart.html";
 }
+
+let logocl = document.querySelector("#logocl");
+logocl.addEventListener("click", () => {
+  location = "landingPage.html";
+});
+
+// let emptycart = document.querySelector('.emptyCart')
+// emptycart.addEventListener('click',()=>{
+
+//   location="emptyCart.html"
+// })

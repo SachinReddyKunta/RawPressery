@@ -21,6 +21,7 @@ function talk() {
       "Hi Scientific Person😊, Welcome back! Please select an option from the below menu.",
     "How are you": "Good 😊",
     "how are you": "Good 😊",
+    "how old are you": "My age is Infinity!!! ",
     juice: "Which flavour you want to buy?",
     Mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
     mango: "We have a pulp mango juice with natural extracts, Shop Now !!! ",
@@ -54,14 +55,81 @@ modalCloseIcon.addEventListener("click", function () {
   modalBox.classList.remove("bg-on");
 });
 
-let loginBtn = document.querySelector(".login_Btn");
-loginBtn.addEventListener("click", loginpage);
+//   carousel//
+var slideIndex = 1;
+showSlides(slideIndex);
 
-function loginpage() {
-  location = "mailLogin.html";
+function plusSlides(n) {
+  showSlides((slideIndex += n));
 }
 
-let logocl = document.querySelector("#logocl");
-logocl.addEventListener("click", () => {
-  location = "landingPage.html";
-});
+function currentSlide(n) {
+  showSlides((slideIndex = n));
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
+}
+
+//carousel2//
+var slideIndex2 = 1;
+showSlides2(slideIndex2);
+
+function plusSlides2(n) {
+  showSlides2((slideIndex2 += n));
+}
+
+function currentSlide2(n) {
+  showSlides2((slideIndex2 = n));
+}
+
+function showSlides2(n) {
+  var i;
+  var slides2 = document.getElementsByClassName("mySlidess");
+  var dots = document.getElementsByClassName("dot11");
+  if (n > slides2.length) {
+    slideIndex2 = 1;
+  }
+  if (n < 1) {
+    slideIndex2 = slides2.length;
+  }
+  for (i = 0; i < slides2.length; i++) {
+    slides2[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides2[slideIndex2 - 1].style.display = "block";
+  dots[slideIndex2 - 1].className += " active";
+}
+
+// let video = document.getElementById("video");
+// // console.log("object")
+// let overlay = document.querySelector(".overlay");
+
+// video.addEventListener("click", () => {
+//   overlay.style.display = "none";
+//   video.style.opacity = "1";
+// });
+
+// login_Btn = document.querySelector('.login_Btn')
+// login_Btn.addEventListener('click',()=>{
+
+//   window.location = "mailLogin.html"
+// })

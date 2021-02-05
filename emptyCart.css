@@ -6,7 +6,6 @@ body {
   line-height: 1.5;
   font-size: 14px;
   font-weight: 400;
-
 }
 /* @media (min-width: 768px) */
 .Header_top {
@@ -44,21 +43,21 @@ header {
   display: flex;
   justify-content: space-around;
 }
-.fa-whatsapp{
+.fa-whatsapp {
   color: white;
   background: green;
-   border-radius: 50%;
-    font-weight: 400;
-    height: 15px;  
+  border-radius: 50%;
+  font-weight: 400;
+  height: 15px;
 }
-.fa-phone-square-alt{
+.fa-phone-square-alt {
   font-size: 14px !important;
-   color: #6fc36f;
-   border-radius: 50%;
-    font-weight: 400;
-    /* height: 15px; */
+  color: #6fc36f;
+  border-radius: 50%;
+  font-weight: 400;
+  /* height: 15px; */
 }
-.fa-search{
+.fa-search {
   color: white;
   width: 10px;
   height: 0px;
@@ -77,13 +76,7 @@ header {
   margin: 12px 200px 12px;
   float: left;
 }
-.content_space {
-  display: flex;
-  justify-content: space-around;
-  width: 280px;
-  text-align: center;
-  font-weight: 100;
-}
+
 .dropbtn {
   background-color: rgb(90, 87, 87);
   color: white;
@@ -98,15 +91,23 @@ header {
   position: relative;
   display: inline-block;
 }
-
+.content_space {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-weight: 100;
+}
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 300px;
+  /* min-width: 200px; */
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  text-align: center;
+  /* text-align: center; */
+}
+.shop_cont {
+  display: flex;
 }
 
 .dropdown-content a {
@@ -135,7 +136,7 @@ header {
 
 .header_middle_cont2 {
   width: 20%;
-  margin-left: -120px ;
+  margin-left: -120px;
   text-align: center;
   padding: 0.1%;
 }
@@ -445,116 +446,108 @@ header {
 .botDiv {
   float: left;
   position: fixed;
-  margin:500px 10px 0px;
+  margin: 500px 10px 0px;
 }
 
-
-footer{
+footer {
   display: block;
-  
 }
-.rFooter{
+.rFooter {
   padding-top: 20px;
-    padding-right: 0px;
-    padding-bottom: 10px;
-    padding-left: 0px;
-    background-color: black;
-    
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 0px;
+  background-color: black;
 }
-.Foot_container{
+.Foot_container {
   max-width: 960px;
   width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  box-sizing: border-box;
 }
-div{
+div {
   display: block;
 }
-.foot_row{
+.foot_row {
   display: flex;
   flex-wrap: wrap;
-    margin-right: 15px;
-    margin-left: -65px;
+  margin-right: 15px;
+  margin-left: -65px;
 }
 .text-center {
   text-align: center !important;
 }
-.textfonting{
+.textfonting {
   font-size: 22px;
   font-family: "Bebas Neue", cursive;
   font-weight: 100;
 }
-.foot_col{
+.foot_col {
   color: white;
   flex: 0 0 33.333333%;
   max-width: 33.333333%;
   position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-   
-    
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
-.contents{
-  color:grey;
-    font-weight: 200;
-    margin-bottom: 15px;
-    margin: 0;
-    padding: 0;
+.contents {
+  color: grey;
+  font-weight: 200;
+  margin-bottom: 15px;
+  margin: 0;
+  padding: 0;
 }
-p{
+p {
   display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
-.col_foot2{
+.col_foot2 {
   flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: -15px;
-   
+  max-width: 33.333333%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: -15px;
 }
-.colsub_foot{
+.colsub_foot {
   display: flex;
   justify-content: space-evenly;
-  font-size:22px;
-  margin: 90px -50px 0px ;
+  font-size: 22px;
+  margin: 90px -50px 0px;
   font-family: "Bebas Neue", cursive;
   font-weight: 100;
 }
-.footer_signup{
+.footer_signup {
   color: white;
   text-align: center !important;
-  flex:1%;
+  flex: 1%;
   font-size: 22px;
   font-family: "Bebas Neue", cursive;
   font-weight: 100;
 }
-.input_foot{
+.input_foot {
   background-color: black;
   height: 30px;
   border: black;
   border-bottom: 1px solid grey;
 }
-.btnSubscribe{
+.btnSubscribe {
   background-color: black;
   color: white;
   height: 32px;
   border: black;
   border-bottom: 1px solid grey;
 }
-.copyRight{
+.copyRight {
   margin: 20px 0 0 0;
-  
 }
-.footEnd{
+.footEnd {
   text-align: center;
- 
 }
