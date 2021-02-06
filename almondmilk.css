@@ -1,0 +1,520 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+  /* @media (min-width: 768px) */
+  .Header_top {
+    background: rgb(90, 87, 87);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    margin: auto;
+    top: 0;
+    opacity: 0.9;
+  }
+ 
+  .header_main_Cont {
+    width: 100%;
+    height: 99px;
+  }
+  .header_cont1 {
+    height: 22px;
+  }
+  .location {
+    color: rgb(156, 148, 148);
+    font-size: large;
+    width: 30%;
+    float: left;
+  }
+  .telee {
+    font-family: "Bebas Neue";
+    width: 9%;
+    margin: 5px 10px 5px;
+  }
+  .telephone {
+    display: flex;
+  }
+  .fa-whatsapp {
+    color: white;
+    background: green;
+    border-radius: 50%;
+    font-weight: 400;
+    height: 15px;
+  }
+  .fa-phone-square-alt {
+    font-size: 14px !important;
+    color: #6fc36f;
+    border-radius: 50%;
+    font-weight: 400;
+    /* height: 15px; */
+  }
+  .fa-search {
+    color: white;
+    width: 10px;
+    height: 30px;
+  }
+  .sub_cont1 {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .header_cont2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header_left_cont2 {
+    width: 20%;
+    margin: 12px 200px 12px;
+    float: left;
+  }
+  
+  .dropbtn {
+    background-color: rgb(90, 87, 87);
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 100;
+    border: none;
+    font-family: "Bebas Neue";
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .content_space {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-weight: 100;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    /* min-width: 200px; */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* text-align: center; */
+  }
+  .shop_cont {
+    display: flex;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(90, 87, 87);
+    text-decoration: underline white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    background-color: black;
+    color: white;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: rgb(90, 87, 87);
+  }
+  
+  .header_middle_cont2 {
+    width: 20%;
+    margin-left: -120px;
+    text-align: center;
+    padding: 0.1%;
+  }
+  .header_right_cont2 {
+    width: 12%;
+    margin: 20px 210px 12px;
+    display: flex;
+    justify-content: space-around;
+  }
+  .user {
+    border-radius: 14px;
+  }
+  .dott {
+    height: 9px;
+    background-color: green;
+    width: 9px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot22 {
+    height: 15px;
+    width: 15px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 17px 0px 0px;
+    margin-left: -15px;
+    color: #f1f1f1;
+    text-align: center;
+  }
+  .droppindown {
+    position: relative;
+    display: inline-block;
+  }
+  .droppindown_Btn {
+    background-color: rgb(90, 87, 87);
+    color: white;
+    padding: 7px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+  }
+  .droppindown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 15px 16px;
+    z-index: 1;
+  }
+  .droppindown-content a {
+    color: black;
+    padding: 20px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .droppindown-content a:hover {
+    background-color: rgb(90, 87, 87);
+    text-decoration: underline white;
+  }
+  .droppindown:hover .droppindown-content {
+    display: block;
+    background-color: black;
+    color: white;
+  }
+  
+  .droppindown:hover .droppindown_Btn {
+    background-color: rgb(90, 87, 87);
+  }
+  .login_Btn {
+    background-color: rgb(90, 87, 87);
+    border-radius: 2px;
+    height: 25px;
+    width: 150px;
+    color: white;
+  }
+  .modal-bg {
+    position: fixed;
+    width: 100%;
+    height: 80vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(77, 67, 67, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+  }
+  .bg-active {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .modal {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 80%;
+    height: 45%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .searchbox {
+    width: 90%;
+    height: 50px;
+  }
+  .dropdown_lern {
+    position: relative;
+    display: inline-block;
+  }
+  .dropbtn_lern {
+    font-family: "Bebas Neue";
+    background-color: rgb(90, 87, 87);
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    font-weight: 100;
+    border: none;
+  }
+  .dropdown-content_lern {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content_lern a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content_lern a:hover {
+    background-color: rgb(90, 87, 87);
+    text-decoration: underline white;
+  }
+  
+  .dropdown_lern:hover .dropdown-content_lern {
+    display: block;
+    background-color: black;
+    color: white;
+  }
+  
+  .dropdown_lern:hover .dropbtn_lern {
+    background-color: rgb(90, 87, 87);
+  }
+i {
+    font-size: 16px;
+}
+.headerCont {
+    background-color: whitesmoke;
+    margin-top: 90px;
+}
+.card img {
+    height: 22vh;
+}
+.card h3{
+    margin:10px ;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 23px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.price {
+    display: flex;
+}
+.price span{
+    margin:0px 7px;
+}
+.strikePrice {
+    text-decoration: line-through red;
+    font-size: 19px;
+    font-weight: 500;
+    color: #999999;
+}
+.actualPrice {
+    font-size: 19px;
+    font-weight: 500;
+}
+.strikePrice i {
+   color: #999999;
+   margin-right: 2px;
+}
+.capacity {
+    margin: 12px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.actualPrice i {
+    margin-right: 2px;
+ }
+ .card {
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+     min-width: 17vw;
+     background-color: whitesmoke;
+     margin: 30px 30px;
+ }
+
+ .addToCart {
+     font-size: 19px;
+     font-family: 'Bebas Neue', cursive;
+     padding: 12px 30px;
+     letter-spacing: 1px;
+     border: black 1px solid;
+     background-color: white;
+     cursor: pointer;
+
+ }
+ .almondCont {
+     display: grid;
+     grid-template-columns: 20% 20% 20%;
+     grid-auto-rows: 52vh;
+     justify-content: center;
+ }
+ .heading {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 500;
+    text-align: center;
+    margin: 5px;
+    letter-spacing: 1px;
+ }
+ .addToCart:hover {
+     background-color: black;
+     color: white;
+ }
+ .plus,.minus {
+     padding:12px 19px;
+     border: black 1px solid;
+     background-color: white;
+     font-size: 17px;
+     font-weight: 700;
+     cursor: pointer;
+     float: left;
+ }
+ .count {
+    padding:13px 19px;
+    font-size: 16px;
+    border: black 1px solid;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+    border-right: none;
+    float: left;
+ }
+  
+  .addToCartButton:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .minus {
+    border-right: none;
+  }
+  .addToCartButton {
+    display: none;
+  }
+  .productName {
+      text-align: center;
+  }
+
+.almondCont {
+    min-height: 300px;
+}
+footer {
+    display: block;
+  }
+  .rFooter {
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    background-color: black;
+  }
+  .Foot_container {
+    max-width: 960px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+  }
+  div {
+    display: block;
+  }
+  .foot_row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: -65px;
+  }
+  .text-center {
+    text-align: center !important;
+  }
+  .textfonting {
+    font-size: 22px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 100;
+  }
+  .foot_col {
+    color: white;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .contents {
+    color: grey;
+    font-weight: 200;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .col_foot2 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: -15px;
+  }
+  .colsub_foot {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 22px;
+    margin: 90px -50px 0px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 100;
+  }
+  .footer_signup {
+    color: white;
+    text-align: center !important;
+    flex: 1%;
+    font-size: 22px;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 100;
+  }
+  .input_foot {
+    background-color: black;
+    height: 30px;
+    border: black;
+    border-bottom: 1px solid grey;
+  }
+  .btnSubscribe {
+    background-color: black;
+    color: white;
+    height: 32px;
+    border: black;
+    border-bottom: 1px solid grey;
+  }
+  .copyRight {
+    margin: 20px 0 0 0;
+  }
+  .footEnd {
+    text-align: center;
+  }
+  
+  
