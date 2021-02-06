@@ -133,3 +133,16 @@ function showSlides2(n) {
 
 //   window.location = "mailLogin.html"
 // })
+
+let cart = JSON.parse(localStorage.getItem("cart")) || []
+
+function redirectTo(){
+  let cart = JSON.parse(localStorage.getItem("cart")) || []
+  if(cart.length===0){
+    location.href = "emptyCart.html"
+  }
+  else if(cart.length>0){
+    location.href = "cart_2.html"
+  }
+}
+document.getElementById("cartThings").innerHTML = cart.length

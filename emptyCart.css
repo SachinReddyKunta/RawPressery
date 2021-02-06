@@ -151,7 +151,7 @@ header {
 }
 .dot {
   height: 9px;
-  background-color: red;
+  background-color: green;
   width: 9px;
   border-radius: 50%;
   display: inline-block;

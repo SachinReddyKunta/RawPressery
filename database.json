@@ -1,0 +1,479 @@
+{
+  "juices": [
+    {
+      "id": 1,
+      "name": "COCONUT WATER",
+      "CP": "60.00",
+      "SP": "51.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/coconut-water-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 2,
+      "name": "VALENCIA ORANGE",
+      "CP": "100.00",
+      "SP": "80.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//v/a/valencia-orange-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 3,
+      "name": "SUGARCANE",
+      "CP": "200.00",
+      "SP": "160.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//s/u/sugarcane-1litre.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 4,
+      "name": "POMEGRANATE",
+      "CP": "400.00",
+      "SP": "320.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/o/pomegranate-1litre.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 5,
+      "name": "FLUSH",
+      "CP": "150.00",
+      "SP": "120.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//f/l/flush-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 6,
+      "name": "GUAVA",
+      "CP": "80.00",
+      "SP": "64.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//g/u/guava-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 7,
+      "name": "LIFE",
+      "CP": "150.00",
+      "SP": "120.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//l/i/life-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 8,
+      "name": "POMEGGRANATE",
+      "CP": "150.00",
+      "SP": "120.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/o/pomegranate-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 9,
+      "name": "SUGARCANE",
+      "CP": "80.00",
+      "SP": "64.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//s/u/sugarcane-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 10,
+      "name": "TRIM",
+      "CP": "150.00",
+      "SP": "120.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//t/r/trim-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 11,
+      "name": "VALENCIA ORANGE",
+      "CP": "330.00",
+      "SP": "264.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//v/a/valencia-orange-1litre.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 12,
+      "name": "ALOE LEMONADE",
+      "CP": "60.00",
+      "SP": "48.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/aloe-lemonade-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 13,
+      "name": "MANGO",
+      "CP": "60.00",
+      "SP": "48.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/a/mango-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 14,
+      "name": "COCONUT WATER ALOE LEMON",
+      "CP": "60.00",
+      "SP": "51.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/coconut-water-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 15,
+      "name": "MIXED FRUIT",
+      "CP": "60.00",
+      "SP": "48.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/i/mixed-fruit-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 16,
+      "name": "LEAN",
+      "CP": "150.00",
+      "SP": "120.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//l/e/lean-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 17,
+      "name": "GRAPE FRUIT",
+      "CP": "175.00",
+      "SP": "140.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//g/r/grapefruit-250ml.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 18,
+      "name": "GRAPE FRUIT",
+      "CP": "450.00",
+      "SP": "360.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//g/r/grapefruit-1litre.png",
+      "capacity": "1Litre"
+    }
+  ],
+  "almondmilk": [
+    {
+      "id": 19,
+      "name": "ALMOND MILK CACAO",
+      "CP": "300.00",
+      "SP": "225.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-cacao-1litre.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 20,
+      "name": "ALMOND MILK PLAIN UNSWEETENED",
+      "CP": "325.00",
+      "SP": "243.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-unsweetened-1litre.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 21,
+      "name": "ALMOND MILK COFFEE",
+      "CP": "100.00",
+      "SP": "80.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-coffee-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 22,
+      "name": "ALMOND MILK COCOA",
+      "CP": "100.00",
+      "SP": "80.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-cacao-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 23,
+      "name": "ALMOND MILK DATES",
+      "CP": "100.00",
+      "SP": "80.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-dates-200ml.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 24,
+      "name": "ALMOND MILK MANGO",
+      "CP": "100.00",
+      "SP": "80.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-mango-200ml.png",
+      "capacity": "200ML"
+    }
+  ],
+  "proteinmilkshake": [
+    {
+      "id": 25,
+      "name": "COLD COFFEE",
+      "CP": "80.00",
+      "SP": "64.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/cold-coffee-200ml.png",     "capacity": "200ML"
+    },
+    {
+      "id": 26,
+      "name": "BANANA + HONEY",
+      "CP": "90.00",
+      "SP": "72.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//b/a/banana-honey-200ml.png",     "capacity": "200ML"
+    },
+    {
+      "id": 27,
+      "name": "CHOCOLATE + MINT",
+      "CP": "90.00",
+      "SP": "72.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/h/chocolate-mint-200ml.png",     "capacity": "200ML"
+    }
+  ],
+  "valuepacks": [
+    {
+      "id": 28,
+      "name": "COCONUT WATER - PACK OF 36",
+      "CP": "2160.00",
+      "SP": "1728.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/coconut-water-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 29,
+      "name": "COCONUT WATER - PACK OF 12",
+      "CP": "720.00",
+      "SP": "612.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/coconut-water-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 30,
+      "name": "ANTI-OXIDANT PACK OF 8",
+      "CP": "1200.00",
+      "SP": "960.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/n/anti-oxidant-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 31,
+      "name": "POM COMBO - PACK OF 6",
+      "CP": "900.00",
+      "SP": "660.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/o/pom-combo-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 32,
+      "name": "VALENCIA ORANGE BUNDLE - PACK OF 6",
+      "CP": "600.00",
+      "SP": "450.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//v/a/valencia-orange-250ml-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 33,
+      "name": "CHOOSE LIFE - PACK OF 6",
+      "CP": "900.00",
+      "SP": "720.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//l/i/life-pack-6.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 34,
+      "name": "CACAO ALMOND MILK",
+      "CP": "600.00",
+      "SP": "420.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/a/cacao-almond-milk-1litre-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 35,
+      "name": "GUAVA - PACK OF 6",
+      "CP": "480.00",
+      "SP": "384.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//g/u/guava-250ml-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 36,
+      "name": "POMEGRANATE ( 1L X 2 )",
+      "CP": "800.00",
+      "SP": "600.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/o/pomegranate-1litre-packs.png",
+      "capacity": "1L"
+    },
+    {
+      "id": 37,
+      "name": "VALENCIA ORANGE ( 1L X 4 )",
+      "CP": "1320.00",
+      "SP": "1056.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//v/a/valencia-orange-1litre-packs.png",
+      "capacity": "1L"
+    },
+    {
+      "id": 38,
+      "name": "UNSWEETENED ALMOND MILK ( 1L X 4 )",
+      "CP": "1300.00",
+      "SP": "960.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//u/n/unsweetened-almond-milk-1litre-packs.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 39,
+      "name": "UNSWEETENED ALMOND MILK ( 1L X 2 )",
+      "CP": "650.00",
+      "SP": "480.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//u/n/unsweetened-almond-milk-1litre-packs.png",
+      "capacity": "1Litre"
+    },
+    {
+      "id": 40,
+      "name": "ALOE LEMONADE - PACK OF 30",
+      "CP": "1800.00",
+      "SP": "1350.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/aloe-lemonade-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 41,
+      "name": "COCONUT WATER ALOE LEMON - PACK OF 36",
+      "CP": "2160.00",
+      "SP": "1728.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//c/o/coconut-water-aloe-lemon-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 42,
+      "name": "MIXED FRUIT - PACK OF 12",
+      "CP": "720.00",
+      "SP": "576.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/i/mixed-fruit-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 43,
+      "name": "MANGO - PACK OF 12",
+      "CP": "720.00",
+      "SP": "576.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/a/mango-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 44,
+      "name": "MANGO - PACK OF 30",
+      "CP": "1800.00",
+      "SP": "1350.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/a/mango-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 45,
+      "name": "LEAN - PACK OF 6",
+      "CP": "900.00",
+      "SP": "720.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//l/e/lean-pack-of-6.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 46,
+      "name": "ALOE LEMONADE - PACK OF 12",
+      "CP": "720.00",
+      "SP": "576.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/aloe-lemonade-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 47,
+      "name": "SUGARCANE - PACK OF 6",
+      "CP": "480.00",
+      "SP": "384.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//s/u/sugarcane-250ml-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 48,
+      "name": "BEST SELLER - PACK OF 8",
+      "CP": "1200.00",
+      "SP": "960.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//b/e/best-seller-packs.png",
+      "capacity": "250ML"
+    },
+    {
+      "id": 49,
+      "name": "SUGARCANE ( 1L X 4 )",
+      "CP": "800.00",
+      "SP": "600.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//s/u/sugarcane-1litre-packs.png",
+      "capacity": "1L"
+    },
+    {
+      "id": 50,
+      "name": "GRAPEFRUIT ( 1L X 2 )",
+      "CP": "950.00",
+      "SP": "760.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//g/r/grapefruit-1litre-packs.png",
+      "capacity": "1L"
+    },
+    {
+      "id": 51,
+      "name": "ALMOND MILK CACAO ( 6 BOTTLES )",
+      "CP": "600.00",
+      "SP": "480.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-cacao-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 52,
+      "name": "ALMOND MILK COFFEE ( 6 BOTTLES )",
+      "CP": "600.00",
+      "SP": "450.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-coffee-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 53,
+      "name": "PROTEIN MILKSHAKE - HONEY BANANA - PACK OF 12",
+      "CP": "1080.00",
+      "SP": "864.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/r/protein-milkshake-honey-banana-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 54,
+      "name": "PROTEIN MILKSHAKE - COLD COFFEE - PACK OF 12",
+      "CP": "1080.00",
+      "SP": "864.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/r/protein-milkshake-coffee-shake-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 55,
+      "name": "PROTEIN MILKSHAKE - CHOCO MINT - PACK OF 12",
+      "CP": "1080.00",
+      "SP": "864.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//p/r/protein-milkshake-choco-mint-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 56,
+      "name": "MIXED FRUIT - PACK OF 30",
+      "CP": "1800.00",
+      "SP": "1350.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//m/i/mixed-fruit-200ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 57,
+      "name": "ALMOND MILK ON THE GO",
+      "CP": "600.00",
+      "SP": "480.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-on-the-go-250ml-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 58,
+      "name": "ALMOND MILK DATES ( 6 BOTTLES )",
+      "CP": "600.00",
+      "SP": "480.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-dates-packs.png",
+      "capacity": "200ML"
+    },
+    {
+      "id": 59,
+      "name": "ALMOND MILK MANGO ( 6 BOTTLES )",
+      "CP": "600.00",
+      "SP": "480.00",
+      "image": "https://www.rawpressery.com/assets/imgs/product_images/thumb//a/l/almond-milk-mango-200ml-packs.png",
+      "capacity": "200ML"
+    }
+  ]
+}

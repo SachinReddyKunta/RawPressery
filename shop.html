@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOP</title>
+    <link rel="stylesheet" href="shop.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="shopContainer" id="shopContainer">
+        <header id="headerCont" class="headerCont">
+            <a href="juices.html">
+                <img src="https://www.rawpressery.com/assets/imgs/category_tabs/tab5-ico.svg" alt=""> 
+                <span>SUBSCRIPTIONS</span>
+            </a>
+            <a onclick = "redirectToValuePacks()">
+                <img src="https://www.rawpressery.com/assets/imgs/category_tabs/tab4-ico.svg" alt="">
+                <span>VALUE PACKS</span>
+            </a>
+            <a onclick="redirectToJuices()">
+                <img src="https://www.rawpressery.com/assets/imgs/category_tabs/tab1-ico.svg" alt="">
+                <span>JUICES</span>
+            </a>
+            <a onclick="redirectToAlmondMilk()">
+                <img src="https://www.rawpressery.com/assets/imgs/category_tabs/tab2-ico.svg" alt="">
+                <span>ALMOND MILK</span>
+            </a>
+            <a onclick="redirectToProteinMilkShake()">
+                <img src="https://www.rawpressery.com/assets/imgs/category_tabs/tab6-ico.svg" alt="">
+                <span>PROTEIN MILKSHAKE</span>
+            </a>
+        </header>
+        <div class="cardsCont" id="cardsCont"></div>
+    </div>
+    <script src="shop.js"></script>
+</body>
+</html>

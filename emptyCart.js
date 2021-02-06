@@ -65,3 +65,7 @@ let logocl = document.querySelector("#logocl");
 logocl.addEventListener("click", () => {
   location = "landingPage.html";
 });
+
+function redirectToJuices(){
+  location.href = "juices.html"
+}
